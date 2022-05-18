@@ -4,7 +4,6 @@ This code runs on api.iconify.design that is used to serve collections and SVG i
 
 PHP version is available at https://github.com/iconify/api.php
 
-
 ### How to use it
 
 To start server simply run
@@ -13,12 +12,13 @@ To start server simply run
 node app
 ```
 
-By default server will be running on port 3000. You can change port and other configuration by adding custom config.json
+open: http://127.0.0.1:8084/fa-regular.js?icons=circle,check-circle,comments,dot-circle&pretty=1&callback=Iconify.addCollection
+
+By default server will be running on port 8084. You can change port and other configuration by adding custom config.json
 
 File config.json is the same as config-default.json, but contains only values you have customized. See [config.md](config.md)
 
-It is better to run server on obscure port such as 3000 hidden behind firewall and use nginx reverse proxy. This way you can offload connection handling to nginx and you can easily use SSL, rate limiting and other security features nginx provides.
-
+It is better to run server on obscure port such as 8084 hidden behind firewall and use nginx reverse proxy. This way you can offload connection handling to nginx and you can easily use SSL, rate limiting and other security features nginx provides.
 
 ### Node vs PHP
 

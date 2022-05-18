@@ -16,7 +16,7 @@ then add custom configuration variables to it.
 
 #### port
 
-Port to listen on. Default value is 3000
+Port to listen on. Default value is 8084
 
 #### env-port
 
